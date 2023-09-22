@@ -45,12 +45,12 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-column top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700'>
-            <a className='flex justify-between items-center w-full text-primaryText' href="https://www.linkedin.com/in/lucasneno/">
+            <a className='flex justify-between items-center w-full text-primaryText' href="https://www.linkedin.com/in/lucasneno/" target="_blank" rel="noreferrer">
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a className='flex justify-between items-center w-full text-primaryText' href="https://github.com/casneno">
+            <a className='flex justify-between items-center w-full text-primaryText' href="https://github.com/casneno" target="_blank" rel="noreferrer">
               GitHub <FaGithub size={30} />
             </a>
           </li>
@@ -63,10 +63,10 @@ const Navbar = () => {
       </div>
       {/* Social icons - Mobile */}
       <div className={!nav ? 'hidden' : 'absolute bottom-8 left-0 right-0 flex justify-center space-x-6'}>
-        <a className='text-blue-700' href="https://www.linkedin.com/in/lucasneno/">
+        <a className='text-blue-700' href="https://www.linkedin.com/in/lucasneno/" target="_blank" rel="noreferrer">
           <FaLinkedin size={30} />
         </a>
-        <a className='text-[#333333]' href="https://github.com/casneno">
+        <a className='text-[#333333]' href="https://github.com/casneno" target="_blank" rel="noreferrer">
           <FaGithub size={30} />
         </a>
         {/* <a className='text-primaryText' href="/">

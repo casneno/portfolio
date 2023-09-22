@@ -62,10 +62,10 @@ const Projects = () => {
                   {project.date}
                 </span>
                 <div className='pt-4 text-center mb-0'>
-                  <a href={project.demoLink}>
+                  <a href={project.demoLink} target="_blank" rel="noreferrer">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-accent1 text-primaryBg font-bold text-lg'>Demo</button>
                   </a>
-                  <a href={project.codeLink}>
+                  <a href={project.codeLink} target="_blank" rel="noreferrer">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-accent1 text-primaryBg font-bold text-lg'>Code</button>
                   </a>
                 </div>
