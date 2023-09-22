@@ -30,9 +30,7 @@ const About = () => {
           
           {/* Main Content */}
           <div className='text-lg sm:text-xl text-secondaryText space-y-4'>
-            <p>Transitioning from a successful career in Civil Engineering to Software Engineering, I bring with me a rich background in project management and team leadership. Armed with a knack for analytical thinking and creative problem-solving, I am adept at delivering innovative solutions in complex environments.</p>
-
-            <p>As a newly minted software engineer eager to blend industry expertise with fresh technical insights, I am on the lookout for opportunities where I can leverage my unique skill set. If your team is seeking a junior developer with a proven track record in project coordination and a passion for technology, I am eager to connect and contribute to your next project.</p>
+            <p>Transitioning from Civil to Software Engineering, I combine project management expertise with analytical and creative problem-solving skills. As a junior developer keen on merging industry experience with new technical knowledge, I'm seeking opportunities to contribute and eager to connect with teams needing my unique abilities.</p>
           </div>
         </div>
       </div>
