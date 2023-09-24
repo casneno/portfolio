@@ -7,6 +7,12 @@ import Mongo from '../../images/mongo.png';
 import Node from '../../images/node.png';
 import ReactShield from '../../images/react.png';
 import Tailwind from '../../images/tailwind.png';
+import Postgre from '../../images/postgre.png';
+import Django from '../../images/django.png';
+import Python from '../../images/python.png';
+import Heroku from '../../images/heroku.png';
+import Express from '../../images/express.png';
+import Postman from '../../images/postman.png';
 
 const Skills = () => {
   return (
@@ -23,11 +29,17 @@ const Skills = () => {
             {img: HTML, alt: "HTML logo", name: "HTML"},
             {img: CSS, alt: "CSS logo", name: "CSS"},
             {img: JavaScript, alt: "JavaScript logo", name: "JavaScript"},
-            {img: GitHub, alt: "GitHub logo", name: "GitHub"},
-            {img: Mongo, alt: "MongoDB logo", name: "Mongo"},
+            {img: Python, alt: "Python logo", name: "Python"},
             {img: ReactShield, alt: "React logo", name: "React"},
             {img: Node, alt: "Node.js logo", name: "Node"},
-            {img: Tailwind, alt: "Tailwind CSS logo", name: "Tailwind"}
+            {img: Express, alt: "Express logo", name: "Express"},
+            {img: Django, alt: "Django logo", name: "Django"},
+            {img: Mongo, alt: "MongoDB logo", name: "Mongo"},
+            {img: Postgre, alt: "Postgre logo", name: "Postgre"},
+            {img: Tailwind, alt: "Tailwind CSS logo", name: "Tailwind"},
+            {img: Postman, alt: "Postman logo", name: "Postman"},
+            {img: GitHub, alt: "GitHub logo", name: "GitHub"},
+            {img: Heroku, alt: "Heroku logo", name: "Heroku"},
           ].map((tech, idx) => (
             <div key={idx} className='hover:scale-125 duration-500'>
               <img className='w-20 mx-auto' src={tech.img} alt={tech.alt} />

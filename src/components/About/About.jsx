@@ -26,11 +26,24 @@ const About = () => {
             <p className='text-lg sm:text-xl text-secondaryText mb-4'>
               Please take a look around.
             </p>
+            
+            {/* Interests Tags */}
+            <div className="mt-6 flex flex-wrap gap-2 justify-end">
+                <span className="text-sm sm:text-base bg-accent1 text-primaryBg px-3 py-1 rounded-full">AI</span>
+                <span className="text-sm sm:text-base bg-accent1 text-primaryBg px-3 py-1 rounded-full">react</span>
+                <span className="text-sm sm:text-base bg-accent1 text-primaryBg px-3 py-1 rounded-full">python</span>
+                <span className="text-sm sm:text-base bg-accent1 text-primaryBg px-3 py-1 rounded-full">video games</span>
+                <span className="text-sm sm:text-base bg-accent1 text-primaryBg px-3 py-1 rounded-full">board games</span>
+                <span className="text-sm sm:text-base bg-accent1 text-primaryBg px-3 py-1 rounded-full">cooking</span>
+                <span className="text-sm sm:text-base bg-accent1 text-primaryBg px-3 py-1 rounded-full">outdoor sports</span>
+                {/* Add more tags as needed */}
+            </div>
           </div>
           
           {/* Main Content */}
           <div className='text-lg sm:text-xl text-secondaryText space-y-4'>
-            <p>Transitioning from Civil to Software Engineering, I combine project management expertise with analytical and creative problem-solving skills. As a junior developer keen on merging industry experience with new technical knowledge, I'm seeking opportunities to contribute and eager to connect with teams needing my unique abilities.</p>
+            <p>Transitioning from Civil to Software Engineering, I combine project management expertise with analytical and creative <strong>problem-solving</strong> skills. As a junior developer keen on merging industry experience with new technical knowledge, I'm seeking opportunities to contribute and eager to connect with teams needing my unique abilities.</p>
+            <p>I enjoy listening to a few tech <strong>podcasts</strong>, namely the Alura AI podcast (portuguese) and Changelog</p>
           </div>
         </div>
       </div>
@@ -39,3 +52,5 @@ const About = () => {
 }
 
 export default About;
+
+

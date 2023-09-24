@@ -1,13 +1,23 @@
-import { React } from 'react';
+import React from 'react';
+import lucas from '../../images/lucas.jpg'
 import { Link } from 'react-scroll';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-primaryBg'>
-
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+        
+        {/* Round Profile Image */}
+        <div className="mb-4 flex justify-center">
+        <img 
+        src={lucas}  // Using the imported image
+        alt="Lucas Neno" 
+        className="w-48 h-48 rounded-full shadow-lg border-2 border-gray-300" 
+    />
+        </div>
+
         <p className='text-accent3'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-primaryText'>Lucas Neno</h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-secondaryText'>I'm a Full Stack Developer</h2>
@@ -26,4 +36,5 @@ const Home = () => {
 }
 
 export default Home;
+
 
