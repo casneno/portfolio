@@ -5,11 +5,11 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-primaryBg'>
+    <div name='home' className='w-full min-h-screen pt-[80px] bg-primaryBg'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         
-        {/* Round Profile Image */}
+        {/* Round Profile Image */} 
         <div className="mb-4 flex justify-center">
         <img 
         src={lucas}  // Using the imported image

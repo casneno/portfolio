@@ -16,7 +16,7 @@ import Postman from '../../images/postman.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-primaryBg text-primaryText'>
+    <div name='skills' className='w-full min-h-screen pt-[80px] bg-primaryBg text-primaryText'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>

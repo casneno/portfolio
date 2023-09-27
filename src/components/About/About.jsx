@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-primaryBg text-primaryText'>
+    <div name='about' className='w-full min-h-screen pt-[80px] bg-primaryBg text-primaryText'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         
         {/* Title */}
@@ -28,7 +28,7 @@ const About = () => {
             </p>
             
             {/* Interests Tags */}
-            <div className="mt-6 flex flex-wrap gap-2 justify-end">
+            <div className="mt-6 flex flex-wrap gap-2 sm:justify-end justify-center">
                 <span className="text-sm sm:text-base bg-accent1 text-primaryBg px-3 py-1 rounded-full">AI</span>
                 <span className="text-sm sm:text-base bg-accent1 text-primaryBg px-3 py-1 rounded-full">react</span>
                 <span className="text-sm sm:text-base bg-accent1 text-primaryBg px-3 py-1 rounded-full">python</span>
